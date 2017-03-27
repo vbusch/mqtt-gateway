@@ -1,4 +1,4 @@
-FROM redhat-openjdk-18/openjdk18-openshift
+FROM jboss/base-jdk:8
 
 ARG version=1.0-SNAPSHOT
 ADD target/mqtt-gateway-${version}.jar /
